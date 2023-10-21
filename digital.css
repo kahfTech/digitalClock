@@ -1,0 +1,44 @@
+:root {
+  --text-color: #ff0000;
+  --bg-color: #000000;
+  --color: #00ffff;
+  --bt-color:#3e39;
+  --bc-color: #008000;
+  --cbg-color:#222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font:bold 12px Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+}
+
+.clock{
+  border: 5px solid var(--bc-color);
+  color: var(--text-color);
+  padding: 40px;
+  border-radius: 10px;
+  background-color: var(--cbg-color);
+}
+
+#Date {
+  font-size: 40px !important;
+  text-align: center;
+  color: var(--color);
+}
+
+.clock ul {
+  list-style: none;
+  display: flex;
+  font-size: 95px;
+  gap: 17px;
+}
